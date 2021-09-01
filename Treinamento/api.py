@@ -29,4 +29,5 @@ def gerarResponse(status, mensagem ,nome_do_conteudo=False, conteudo=False):
         response[nome_do_conteudo] = conteudo
     
     return response
+    
 app.run()
